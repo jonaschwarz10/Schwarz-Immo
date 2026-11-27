@@ -1,5 +1,5 @@
 // 1. Supabase-Projekt anlegen und Werte unten einsetzen (siehe README).
-const SUPABASE_URL = "https://fxfzicleoxawyhkudjeo.supabase.co/rest/v1/";
+const SUPABASE_URL = "https://fxfzicleoxawyhkudjeo.supabase.co";
 const SUPABASE_ANON_KEY = "sb_publishable_lVdtHyY3lWBxwbatS5htkg_G6J3x7Iy";
 const configured = SUPABASE_URL.startsWith("https://") && !SUPABASE_ANON_KEY.startsWith("DEIN_");
 const $ = (id) => document.getElementById(id);
